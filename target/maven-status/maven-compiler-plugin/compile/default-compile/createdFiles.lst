@@ -1,0 +1,5 @@
+com\itcast\pojo\User.class
+com\itcast\service\UserService.class
+com\itcast\mapper\UserMapper.class
+com\itcast\SpringBootDemo.class
+com\itcast\web\DemoController.class

@@ -1,0 +1,15 @@
+server:
+  port: 80
+logging:
+  level:
+    com.itcast: info
+    org.springframework: info
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springtest?serverTimezone=UTC&useSSL=false
+    username: root
+    password: huawei
+mybatis:
+  type-aliases-package: com.itcast.pojo
+
