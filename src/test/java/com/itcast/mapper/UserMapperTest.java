@@ -18,5 +18,6 @@ public class UserMapperTest {
         System.out.println(user);
         System.out.println("111");
         System.out.println("222");
+        System.out.println("333");
     }
 }
