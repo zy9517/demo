@@ -29,9 +29,4 @@ public class DemoController {
     public User queryUser(@PathVariable("id") Long id){
         return userService.queryById(id);
     }
-
-    @RequestMapping(value = "{id}", method = RequestMethod.GET)
-    public User insertUser(@PathVariable("id") Long id){
-        return userService.queryById(id);
-    }
 }
